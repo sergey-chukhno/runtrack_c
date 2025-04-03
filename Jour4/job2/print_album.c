@@ -6,7 +6,7 @@
 void print_album(struct album *a) {
   if (a == NULL)
     return;
-  printf("\"%s\" by \"%s\" released in %d.\n", a->title, a->title, a->year);
+  printf("\"%s\" by \"%s\" released in %d.\n", a->title, a->artiste, a->year);
 }
 
 int main() {
