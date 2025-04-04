@@ -5,7 +5,7 @@ NAME = music
 CC = gcc
 
 # Flags 
-CFLAGS = -Wall -Wextra -Werror -Iincludes
+CFLAGS = -Wall -Wextra -Werror -Iincludes -g
 
 # Liste of source files
 SRC = main.c \
